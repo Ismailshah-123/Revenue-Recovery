@@ -1,0 +1,56 @@
+﻿# ================================
+# Revenue Recovery Git Ignore
+# ================================
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+venv/
+venv_frontend/
+.venv/
+env/
+ENV/
+
+# Secrets
+.env
+.env.*
+!.env.example
+credentials.json
+token.pickle
+.streamlit/secrets.toml
+frontend/.streamlit/secrets.toml
+backend/.env
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/*.code-snippets
+
+# Node
+node_modules/
+
+# Build / distribution
+dist/
+build/
