@@ -1,19 +1,16 @@
 # Revenue Recovery AI
 
-> Recover revenue that is already sitting inside your inbox.
+**An AI-assisted sales operations MVP for identifying follow-up gaps and potential revenue opportunities in customer conversations.**
+
+The application brings together email ingestion, follow-up detection, AI-assisted analysis, workspace management, and a dashboard so teams can review conversations that may need attention.
 
 [![Backend Tests](https://github.com/Ismailshah-123/Revenue-Recovery/actions/workflows/backend-tests.yml/badge.svg)](https://github.com/Ismailshah-123/Revenue-Recovery/actions/workflows/backend-tests.yml)
-[![Python](https://img.shields.io/badge/Python-3.11%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
-[![FastAPI](https://img.shields.io/badge/Backend-FastAPI-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
-[![Streamlit](https://img.shields.io/badge/Frontend-Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
-[![SQLAlchemy](https://img.shields.io/badge/ORM-SQLAlchemy-D71F00)](https://www.sqlalchemy.org/)
-[![License](https://img.shields.io/badge/License-MIT-111827.svg)](#license)
+![Python](https://img.shields.io/badge/Python-3.11%2B-3776AB?logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/Backend-FastAPI-009688?logo=fastapi&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Frontend-Streamlit-FF4B4B?logo=streamlit&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/ORM-SQLAlchemy-D71F00)
 
-Revenue Recovery AI is a full-stack SaaS MVP that helps sales teams identify customer conversations that may represent missed revenue opportunities. The application combines a FastAPI API, async SQLAlchemy persistence, Gmail ingestion, AI-assisted email reasoning, usage limits, Stripe billing, background scheduling, and a Streamlit dashboard.
-
-This README is the complete local development guide. It is written for a fresh Windows, macOS, or Linux machine and explains the setup from zero, including environment variables, local database configuration, frontend/backend startup, tests, Gmail configuration, AI configuration, Stripe configuration, Docker, and common troubleshooting steps.
-
----
+**Project stage:** MVP. Gmail, AI-provider, and billing features require their respective credentials and configuration. Review the production checklist before using live customer or financial data.
 
 ## Contents
 
